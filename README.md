@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to our Virtual Marketplace for Digital Art project repository! it is a mobile application designed to empower artists by providing a platform to showcase and sell their digital artwork. This app will enable buyers to explore digital art collections, chat with artists for inquiries or commissions, and complete purchases in a secure and user-friendly environment. By integrating essential features such as buyer profiles, real-time messaging, and secure payment systems, the project aims to create a thriving virtual ecosystem for digital art enthusiasts.
+Welcome to our Virtual Marketplace for Digital Art project repository! It is a mobile application designed to empower artists by providing a platform to showcase and sell their digital artwork. This app will enable buyers to explore digital art collections, chat with artists for inquiries or commissions, and complete purchases in a secure and user-friendly environment. By integrating essential features such as buyer profiles, real-time messaging, and secure payment systems, the project aims to create a thriving virtual ecosystem for digital art enthusiasts.
 
 
 ## Group Members:
