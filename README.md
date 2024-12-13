@@ -1,8 +1,9 @@
-# Virtual Marketplace for Digital Art App
+# Virtual Marketplace for Digital Art
 
 ## Overview
 
-Welcome to our Virtual Marketplace for Digital Art App project repository! This project aims to develop a user-friendly mobile application that empowers individuals to efficiently track their expenses and manage their budgets effectively. The Expense Tracker Application provides a comprehensive financial management solution by integrating features such as expense categorization, budget goal setting, and visual reporting.
+Welcome to our Virtual Marketplace for Digital Art project repository! it is a mobile application designed to empower artists by providing a platform to showcase and sell their digital artwork. This app will enable buyers to explore digital art collections, chat with artists for inquiries or commissions, and complete purchases in a secure and user-friendly environment. By integrating essential features such as buyer profiles, real-time messaging, and secure payment systems, the project aims to create a thriving virtual ecosystem for digital art enthusiasts.
+
 
 ## Group Members:
 
@@ -11,28 +12,33 @@ Welcome to our Virtual Marketplace for Digital Art App project repository! This 
 
 ## Tech Stack
 
-- **Flutter**: Dart-based framework for building cross-platform mobile applications.
-- **SQLite**: Local database for data storage on mobile devices.
-- **Flutter Charts**: Library for integrating visual charts into Flutter apps.
-- **Git**: Version control system for collaboration and code management.
-- **Code Editors and IDEs**: Visual Studio Code, Android Studio, Xcode, etc.
+- **Flutter & Dart**: Build natively compiled, cross-platform mobile, web, and desktop applications with rich, responsive UIs.
+- **Firebase**: Backend services including Firestore (database), Cloud Storage (file storage), and Authentication (user management).
+- **APIs**:
+  + Pixabay API: Access high-quality images for profiles and galleries.
+  + CurrencyLayer API: Real-time currency conversion for international transactions.
+- **Version Control with Git**: Efficient collaboration and code management.
+- **Development Environments**: Visual Studio Code, Android Studio, and Xcode for seamless coding and debugging.
 
 ## Project Details
 
-- [**Project Proposal**](https://drive.google.com/file/d/1IqCfg2lhiwTIrwQMbTLpYCJGaJIH7Jjt/view?usp=sharing)
-- [**APK File**](): Update later
-- [**PowerPoint Presentation**](https://docs.google.com/presentation/d/1yPdW3Xx4zmeD6uCLqXW41t_XhXuR7icY/edit?usp=drive_link&ouid=115868471783120857845&rtpof=true&sd=true)
-- [**Youtube Video**](): Update later
+- [**Project Proposal**]()
+- [**APK File**]()
+- [**PowerPoint Presentation**]()
+- [**Youtube Video**]()
 
 ## Key Features
 
-- **Expense Categorization**: Users can categorize expenses into customizable categories for better organization and analysis.
-- **Budget Goal Setting**: Enable users to set monthly or periodic budget limits for overall spending to promote better financial planning.
-- **Visual Reporting**: Generate insightful visual reports and charts to provide users with a comprehensive overview of their spending habits.
+- **Art Showcase**: Enables artists display digital artwork with descriptions and pricing, and buyers can explore the artwork showcase. 
+- **Profiles**: Provides buyers with secure profiles.
+- **Chat System**: Facilitates real-time communication for inquiries and commissions.
+- **Currency Conversion**: Utilizes the CurrencyLayer API for international pricing flexibility.
+- **Firebase Integration**: Ensures secure storage, authentication, and data management.
+
 
 ## Running Application
 
-To run the Expense Tracker Application locally on your machine, follow these steps:
+To run the Virtual Marketplace for Digital Art locally on your machine, follow these steps:
 
 ### Prerequisites
 
@@ -45,14 +51,14 @@ To run the Expense Tracker Application locally on your machine, follow these ste
 1. **Clone the Repository**:
 
    ```bash
-   https://github.com/CSC4360Project2/Project-1-Expense-Tracker-Application.git
+   https://github.com/CSC4360Project2/Project-2-Virtual-Marketplace.git
 
    ```
 
 2. **Navigate to the Project Directory**:
 
    ```bash
-   cd Project-1-Expense-Tracker-Application
+   cd Project-2-Virtual-Marketplace
 
    ```
 
@@ -70,15 +76,15 @@ To run the Expense Tracker Application locally on your machine, follow these ste
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to the Expense Tracker Application project, please follow this [CONTRIBUTING]().
+We welcome contributions from the community! If you'd like to contribute to the Virtual Marketplace for Digital Art project, please follow this [CONTRIBUTING](https://github.com/CSC4360Project2/Project-2-Virtual-Marketplace/blob/main/CONTRIBUTING.md).
 
 ## License
 
-This project is licensed under the [LICENSE]().
+This project is licensed under the [LICENSE](https://github.com/CSC4360Project2/Project-2-Virtual-Marketplace?tab=Apache-2.0-1-ov-file).
 
 ## Contact
 
-For any inquiries or suggestions regarding the Expense Tracker Application project, please contact:
+For any inquiries or suggestions regarding the Virtual Marketplace for Digital Art project, please contact:
 
 - Sophie Nguyen: [sophienguyen113@gmail.com](mailto:sophienguyen113@gmail.com)
 - Thuan Nguyen: [thuannguyen8121997@gmail.com](thuannguyen8121997@gmail.com)
