@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage>
                 SliverAppBar(
                   title: Padding(
                     padding: const EdgeInsets.only(top: 10.0),
-                    child: Text("Artwork Menu".toUpperCase()),
+                    child: Text("Artworks Menu".toUpperCase()),
                   ),
                   centerTitle: true,
                   pinned: true,

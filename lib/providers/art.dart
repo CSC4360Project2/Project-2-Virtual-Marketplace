@@ -73,15 +73,6 @@ class ArtMethods extends ChangeNotifier {
   String displayCartReceipt() {
     final receipt = StringBuffer();
     receipt.writeln("Virtual Marketplace for Digital Art");
-    receipt.writeln("427 Holcomb Bridge, Atlanta, GA 30022");
-    receipt.writeln("(470) 123-987");
-    receipt.writeln();
-
-    String formattedDate =
-    DateFormat('yyyy-mm-dd hh:mm:ss').format(DateTime.now());
-    receipt.writeln("Date: $formattedDate");
-    receipt.writeln("Customer: Mira Jane");
-    receipt.writeln("Ticket#: 120");
     receipt.writeln();
 
     receipt.writeln(

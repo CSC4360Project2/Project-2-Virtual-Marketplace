@@ -29,7 +29,7 @@ class MyTrackingBox extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               _buildColumnSection(
-                '\$3.99',
+                '\$39.99',
                 'Delivery Fee',
                 const TextStyle(
                   color: Colors.teal,
@@ -47,7 +47,7 @@ class MyTrackingBox extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               _buildColumnSection(
-                '15-20 min',
+                '5-7 days',
                 'Delivery Time',
                 const TextStyle(
                   color: Colors.teal,

@@ -70,14 +70,27 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.background,
       appBar: AppBar(
-        title: Text(
-          "Digital Art".toUpperCase(),
-          style: TextStyle(
-            fontSize: 24,
-            color: Theme.of(context).colorScheme.inversePrimary,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 1.5,
-          ),
+        title: Column(
+          children: [
+            Text(
+              "VIRTUAL MARKETPLACE",
+              style: TextStyle(
+                fontSize: 23,
+                color: Colors.blue.shade300,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 1.5,
+              ),
+            ),
+            Text(
+              "FOR DIGITAL ART",
+              style: TextStyle(
+                fontSize: 23,
+                color: Colors.blue.shade300,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 1.5,
+              ),
+            ),
+          ],
         ),
         centerTitle: true,
       ),

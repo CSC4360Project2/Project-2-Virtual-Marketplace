@@ -1,6 +1,7 @@
 import 'package:project2/providers/art.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:intl/intl.dart';
 
 class MyCheckout extends StatelessWidget {
   const MyCheckout({Key? key});
@@ -8,7 +9,10 @@ class MyCheckout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     DateTime currentTime = DateTime.now();
-    DateTime estimatedDeliveryTime = currentTime.add(Duration(minutes: 15));
+    DateTime estimatedDeliveryTime = currentTime.add(Duration(days: 7));
+
+    String formattedDate = DateFormat('MMMM d, y').format(estimatedDeliveryTime);
+    String formattedTime = DateFormat('hh:mm a').format(estimatedDeliveryTime);
 
     return SingleChildScrollView(
       child: Padding(
@@ -87,11 +91,20 @@ class MyCheckout extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 10),
-                  Row(
+                  Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                        Text(
-                        "Estimated Delivery Time: ${estimatedDeliveryTime.hour}:${estimatedDeliveryTime.minute}",
+                      Text(
+                        "Estimated Delivery Date:",
+                        style: TextStyle(
+                          color: Colors.teal,
+                          fontFamily: 'Georgia',
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text(
+                        "$formattedDate at $formattedTime",
                         style: TextStyle(
                           color: Colors.teal,
                           fontFamily: 'Georgia',
