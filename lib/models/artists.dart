@@ -188,5 +188,133 @@ class Artists extends ChangeNotifier {
         price: 530.00,
       ),
     ],
+    "dali": [
+      Art(
+        name: "The Persistence of Memory",
+        description: "A surreal depiction of melting clocks, created in 1931.",
+        imagePath: "lib/images/Dali/persistence_of_memory.png",
+        price: 300.00,
+      ),
+      Art(
+        name: "The Elephants",
+        description: "A surreal painting of elephants with long, spindly legs, created in 1948.",
+        imagePath: "lib/images/Dali/the_elephants.png",
+        price: 280.00,
+      ),
+      Art(
+        name: "The Sacrament of the Last Supper",
+        description: "A surreal reinterpretation of The Last Supper, created in 1955.",
+        imagePath: "lib/images/Dali/the_sacrament_of_the_last_supper.png",
+        price: 350.00,
+      ),
+      Art(
+        name: "Dream Caused by the Flight of a Bee Around a Pomegranate a Second Before Awakening",
+        description: "A dreamlike scene with a woman and bizarre animals, painted in 1944.",
+        imagePath: "lib/images/Dali/dream_caused_by_the_flight.png",
+        price: 320.00,
+      ),
+      Art(
+        name: "Galatea of the Spheres",
+        description: "A painting featuring a fragmented portrait of his wife, Gala, painted in 1952.",
+        imagePath: "lib/images/Dali/galatea_of_the_spheres.png",
+        price: 330.00,
+      ),
+    ],
+    "matisse": [
+      Art(
+        name: "The Dance",
+        description: "A vibrant painting featuring figures in movement, painted in 1910.",
+        imagePath: "lib/images/Matisse/the_dance.png",
+        price: 240.00,
+      ),
+      Art(
+        name: "Blue Nude",
+        description: "A simple yet bold depiction of a reclining nude, created in 1907.",
+        imagePath: "lib/images/Matisse/blue_nude.png",
+        price: 230.00,
+      ),
+      Art(
+        name: "The Red Studio",
+        description: "An abstract depiction of an artist's studio, painted in 1911.",
+        imagePath: "lib/images/Matisse/the_red_studio.png",
+        price: 250.00,
+      ),
+      Art(
+        name: "Woman with a Hat",
+        description: "A portrait of his wife, Amélie, painted in 1905.",
+        imagePath: "lib/images/Matisse/woman_with_a_hat.png",
+        price: 220.00,
+      ),
+      Art(
+        name: "Jazz",
+        description: "A series of colorful paper cut-outs created in the 1940s.",
+        imagePath: "lib/images/Matisse/jazz.png",
+        price: 260.00,
+      ),
+    ],
+    "rembrandt": [
+      Art(
+        name: "The Night Watch",
+        description: "A famous portrait of a militia company, painted in 1642.",
+        imagePath: "lib/images/Rembrandt/the_night_watch.png",
+        price: 400.00,
+      ),
+      Art(
+        name: "Self-Portrait with Two Circles",
+        description: "A masterful self-portrait, created in 1665-1669.",
+        imagePath: "lib/images/Rembrandt/self_portrait_with_two_circles.png",
+        price: 380.00,
+      ),
+      Art(
+        name: "The Jewish Bride",
+        description: "A portrayal of a couple in a tender embrace, created in 1665.",
+        imagePath: "lib/images/Rembrandt/the_jewish_bride.png",
+        price: 420.00,
+      ),
+      Art(
+        name: "The Anatomy Lesson of Dr. Nicolaes Tulp",
+        description: "A depiction of a public dissection, created in 1632.",
+        imagePath: "lib/images/Rembrandt/the_anatomy_lesson.png",
+        price: 450.00,
+      ),
+      Art(
+        name: "Bathsheba at Her Bath",
+        description: "A sensual depiction of Bathsheba, painted in 1654.",
+        imagePath: "lib/images/Rembrandt/bathsheba_at_her_bath.png",
+        price: 460.00,
+      ),
+    ],
+    "klimt": [
+      Art(
+        name: "The Kiss",
+        description: "A romantic portrayal of a couple in an embrace, created in 1907-1908.",
+        imagePath: "lib/images/Klimt/the_kiss.png",
+        price: 550.00,
+      ),
+      Art(
+        name: "Portrait of Adele Bloch-Bauer I",
+        description: "A gilded portrait of a socialite, painted in 1907.",
+        imagePath: "lib/images/Klimt/portrait_of_adele_bloch_bauer.png",
+        price: 600.00,
+      ),
+      Art(
+        name: "The Tree of Life",
+        description: "A decorative painting symbolizing connection and eternity, created in 1905.",
+        imagePath: "lib/images/Klimt/the_tree_of_life.png",
+        price: 570.00,
+      ),
+      Art(
+        name: "Danaë",
+        description: "A depiction of the Greek mythological figure, painted in 1907.",
+        imagePath: "lib/images/Klimt/danae.png",
+        price: 590.00,
+      ),
+      Art(
+        name: "Judith and the Head of Holofernes",
+        description: "A portrayal of the biblical story of Judith, painted in 1901.",
+        imagePath: "lib/images/Klimt/judith_and_the_head.png",
+        price: 580.00,
+      ),
+    ],
   };
 }

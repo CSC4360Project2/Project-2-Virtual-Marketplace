@@ -13,6 +13,10 @@ class ArtMethods extends ChangeNotifier {
   List<Art> get monetArtwork => _artists.allArt["monet"];
   List<Art> get warholArtwork => _artists.allArt["warhol"];
   List<Art> get daVinciArtwork => _artists.allArt["daVinci"];
+  List<Art> get daliArtwork => _artists.allArt["dali"];
+  List<Art> get matisseArtwork => _artists.allArt["matisse"];
+  List<Art> get rembrandtArtwork => _artists.allArt["rembrandt"];
+  List<Art> get klimtArtwork => _artists.allArt["klimt"];
 
   String _deliveryAddress = "123 Flint Drive, Atlanta, Georgia 30303";
   String get deliveryAddress => _deliveryAddress;

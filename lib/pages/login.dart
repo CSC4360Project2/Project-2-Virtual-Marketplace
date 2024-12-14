@@ -75,7 +75,7 @@ class _LoginPageState extends State<LoginPage> {
             Text(
               "VIRTUAL MARKETPLACE",
               style: TextStyle(
-                fontSize: 23,
+                fontSize: 20,
                 color: Colors.blue.shade300,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 1.5,
@@ -84,7 +84,7 @@ class _LoginPageState extends State<LoginPage> {
             Text(
               "FOR DIGITAL ART",
               style: TextStyle(
-                fontSize: 23,
+                fontSize: 20,
                 color: Colors.blue.shade300,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 1.5,

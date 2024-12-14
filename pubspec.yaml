@@ -71,6 +71,10 @@ flutter:
     - lib/images/Monet/
     - lib/images/Picasso/
     - lib/images/Vangogh/
+    - lib/images/Dali/
+    - lib/images/Klimt/
+    - lib/images/Matisse/
+    - lib/images/Rembrandt/
     - lib/images/Warhol/
 
   # An image asset can refer to one or more resolution-specific "variants", see
