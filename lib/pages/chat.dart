@@ -15,10 +15,8 @@ class _ChatPageState extends State<ChatPage> {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
-  // Get the current user's ID
   String get _userId => _auth.currentUser?.uid ?? '';
 
-  // User's chat room collection reference
   CollectionReference get _chatCollection => _firestore.collection('users').doc(_userId).collection('chats');
 
   void _sendMessage() async {
