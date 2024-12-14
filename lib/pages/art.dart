@@ -107,6 +107,16 @@ class _ArtPageState extends State<ArtPage> {
                                 ),
                               ),
                             ),
+                            Padding(
+                              padding: const EdgeInsets.symmetric(vertical: 4),
+                              child: Text(
+                                '\$${widget.menu.price.toStringAsFixed(2)}',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.grey[600],
+                                ),
+                              ),
+                            ),
                             const SizedBox(height: 10),
                             Container(
                               decoration: BoxDecoration(

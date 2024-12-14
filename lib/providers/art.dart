@@ -2,7 +2,6 @@ import 'package:project2/models/cartitem.dart';
 import 'package:project2/models/art.dart';
 import 'package:project2/models/artists.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 
 class ArtMethods extends ChangeNotifier {
   final Artists _artists = Artists();
@@ -77,8 +76,6 @@ class ArtMethods extends ChangeNotifier {
 
     receipt.writeln(
         "--------------------------------------------------------------");
-    receipt.writeln(
-        "--------------------------------------------------------------");
     receipt.writeln();
 
     for (final cartItem in _cart) {
@@ -86,14 +83,14 @@ class ArtMethods extends ChangeNotifier {
           "${cartItem.quantity} x ${cartItem.art.name} - ${_formatPrice(cartItem.art.price)}");
       receipt.writeln();
     }
-    receipt.writeln(
-        "--------------------------------------------------------------");
+
     receipt.writeln(
         "--------------------------------------------------------------");
     receipt.writeln();
 
     receipt.writeln("Total Items: ${getTotalItemCount()}");
     receipt.writeln("Total Price: ${_formatPrice(getTotalPrice())}");
+
     receipt.writeln();
 
     receipt.writeln("Delivering to: $deliveryAddress");
@@ -114,12 +111,10 @@ class ArtMethods extends ChangeNotifier {
 
   double getTotalPrice() {
     double total = 0.0;
-
     for (CartItem cartItem in _cart) {
       double itemTotal = cartItem.art.price;
       total += itemTotal * cartItem.quantity;
     }
-
     return total;
   }
 

@@ -63,6 +63,10 @@ class MyBottomNavBar extends StatelessWidget {
           label: 'Cart',
         ),
         BottomNavigationBarItem(
+          icon: Icon(Icons.chat_outlined),
+          label: "Chat",
+        ),
+        BottomNavigationBarItem(
           icon: Icon(Icons.settings),
           label: "Setting",
         ),
