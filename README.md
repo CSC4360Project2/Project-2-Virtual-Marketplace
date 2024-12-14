@@ -14,9 +14,8 @@ Welcome to our Virtual Marketplace for Digital Art project repository! It is a m
 
 - **Flutter & Dart**: Build natively compiled, cross-platform mobile, web, and desktop applications with rich, responsive UIs.
 - **Firebase**: Backend services including Firestore (database), Cloud Storage (file storage), and Authentication (user management).
-- **APIs**:
+- **API**:
   + Pixabay API: Access high-quality images for profiles and galleries.
-  + CurrencyLayer API: Real-time currency conversion for international transactions.
 - **Version Control with Git**: Efficient collaboration and code management.
 - **Development Environments**: Visual Studio Code, Android Studio, and Xcode for seamless coding and debugging.
 
@@ -29,10 +28,10 @@ Welcome to our Virtual Marketplace for Digital Art project repository! It is a m
 
 ## Key Features
 
-- **Art Showcase**: Enables artists display digital artwork with descriptions and pricing, and buyers can explore the artwork showcase. 
-- **Profiles**: Provides buyers with secure profiles.
+- **Art Showcase**: Enables artists to display digital artwork with descriptions and pricing.
+- **Art purchase**: Enables buyers to buy digital artwork with details on tracking, receipt, etc.
+- **Profiles**: Provides buyers with secure profiles, and enables buyers to update their information.
 - **Chat System**: Facilitates real-time communication for inquiries and commissions.
-- **Currency Conversion**: Utilizes the CurrencyLayer API for international pricing flexibility.
 - **Firebase Integration**: Ensures secure storage, authentication, and data management.
 
 
