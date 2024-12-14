@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:project2/components/bottomnav.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -12,11 +13,18 @@ class ChatPage extends StatefulWidget {
 class _ChatPageState extends State<ChatPage> {
   final TextEditingController _controller = TextEditingController();
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
+  final FirebaseAuth _auth = FirebaseAuth.instance;
+
+  // Get the current user's ID
+  String get _userId => _auth.currentUser?.uid ?? '';
+
+  // User's chat room collection reference
+  CollectionReference get _chatCollection => _firestore.collection('users').doc(_userId).collection('chats');
 
   void _sendMessage() async {
     if (_controller.text.trim().isNotEmpty) {
       String message = _controller.text.trim();
-      await _firestore.collection('chats').add({
+      await _chatCollection.add({
         'message': message,
         'timestamp': FieldValue.serverTimestamp(),
       });
@@ -41,8 +49,7 @@ class _ChatPageState extends State<ChatPage> {
         children: [
           Expanded(
             child: StreamBuilder<QuerySnapshot>(
-              stream: _firestore
-                  .collection('chats')
+              stream: _chatCollection
                   .orderBy('timestamp', descending: true)
                   .snapshots(),
               builder: (context, snapshot) {
