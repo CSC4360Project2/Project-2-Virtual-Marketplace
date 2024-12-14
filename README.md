@@ -21,10 +21,10 @@ Welcome to our Virtual Marketplace for Digital Art project repository! It is a m
 
 ## Project Details
 
-- [**Project Proposal**]()
-- [**APK File**]()
-- [**PowerPoint Presentation**]()
-- [**Youtube Video**]()
+- [**Project Proposal**](https://drive.google.com/file/d/1t3UCd5TSUUHA_qd1mj_f0EBRrok3dtzW/view?usp=drive_link)
+- [**APK File**](https://drive.google.com/file/d/1Jpsrw1ekjo2HsrfKufuMAPhdU-4sUfvv/view?usp=drive_link)
+- [**PowerPoint Presentation**](https://docs.google.com/presentation/d/1xyEt6l3Nkuu0T7oZiOwcm6KMSbPfDEzk/edit?usp=drive_link&ouid=115868471783120857845&rtpof=true&sd=true)
+- [**Youtube Video**](https://drive.google.com/file/d/12U1Ll1gjVew5IiLfZ2aKPKEMF_7hYl7o/view?usp=sharing)
 
 ## Key Features
 
