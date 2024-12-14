@@ -188,7 +188,7 @@ class _SettingPageState extends State<SettingPage> {
                 ),
               ),
             ),
-      bottomNavigationBar: const MyBottomNavBar(currentIndex: 3),
+      bottomNavigationBar: const MyBottomNavBar(currentIndex: 4),
     );
   }
 }

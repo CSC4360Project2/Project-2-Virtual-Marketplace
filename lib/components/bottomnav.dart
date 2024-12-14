@@ -3,6 +3,7 @@ import 'package:project2/pages/home.dart';
 import 'package:project2/pages/setting.dart';
 import 'package:project2/pages/track.dart';
 import 'package:project2/pages/cart.dart';
+import 'package:project2/pages/chat.dart';
 
 class MyBottomNavBar extends StatelessWidget {
   const MyBottomNavBar({
@@ -45,9 +46,17 @@ class MyBottomNavBar extends StatelessWidget {
         if (index == 3) {
           Navigator.pushReplacement(
             context,
+            MaterialPageRoute(builder: (context) => const ChatPage()),
+          );
+        }
+
+        if (index == 4) {
+          Navigator.pushReplacement(
+            context,
             MaterialPageRoute(builder: (context) => const SettingPage()),
           );
         }
+
       },
       items: const [
         BottomNavigationBarItem(
